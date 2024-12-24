@@ -1,3 +1,5 @@
+// Manage the DB connection pool
+// Create and export the connection pool which can be reused throughout the app
 require('dotenv').config();
 const { Pool } = require('pg');
 
