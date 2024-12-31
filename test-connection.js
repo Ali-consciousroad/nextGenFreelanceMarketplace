@@ -1,3 +1,4 @@
+// Test the connection
 // filepath: /home/mcfly/ConsciousRoad/TFE/nextgen-freelance-marketplace/test-connection.js
 const pool = require('./db');
 
