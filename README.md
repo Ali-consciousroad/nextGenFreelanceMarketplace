@@ -42,3 +42,30 @@ Check here the tutorial used to start https://javascript.plainenglish.io/using-s
 The code in this project was adapted to use Postgresql instead of SQLite.
 
 # nextGenFreelanceMarketplace
+My next generation freelance marketplace
+
+Project stack: Next.js, MongoDb, PostgresSQL, Solidity 
+
+# Commands 
+node connect.js
+
+# PostgreSQL command
+View the SQL tables from Terminal 
+1. Switch to the PostgreSQL user:
+sudo -i -u postgres
+
+2. Connect to you DB:
+psql -d crudsqlapp
+
+3. List tables:
+\dt
+
+4. View data in the todo table:
+SELECT * FROM todo;
+
+5. Exit psql:
+\q
+
+
+
+
